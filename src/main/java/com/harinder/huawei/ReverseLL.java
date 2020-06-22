@@ -28,7 +28,6 @@ public class ReverseLL {
         return node;
     }
   
-    // prints content of double linked list 
     void printList(Node node) 
     { 
         while (node != null) { 

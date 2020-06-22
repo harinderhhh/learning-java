@@ -1,9 +1,6 @@
 package com.harinder.huawei;
 
 import java.util.*;
-//Java program to find the only repeating 
-//element in an array where elements are 
-//from 1 to n-1. 
 
 class DuplicateNumber {
 
@@ -18,7 +15,7 @@ class DuplicateNumber {
 	}
 
 	public static void main(String[] args) {
-		int arr[] = { 9, 8, 2, 6, 1, 8, 5, 3, 4, 7 };
+		int arr[] = { 9, 8, 2, 6, 1, 88, 55, 3, 55, 4, 7 };
 		int n = arr.length;
 		System.out.println(findRepeating(arr, n));
 		;

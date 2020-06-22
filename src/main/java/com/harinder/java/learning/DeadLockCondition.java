@@ -14,7 +14,7 @@ public class DeadLockCondition {
 		threadPool.shutdown(); // no use
 	}
 
-	private static class ThreadDemo1 implements Runnable {
+	public static class ThreadDemo1 implements Runnable {
 		public void run() {
 			synchronized (lock1) {
 				System.out.println("Thread 1: Holding lock 1...");
@@ -30,7 +30,7 @@ public class DeadLockCondition {
 		}
 	}
 
-	private static class ThreadDemo2 implements Runnable {
+	public static class ThreadDemo2 implements Runnable {
 		public void run() {
 			synchronized (lock2) {
 				System.out.println("Thread 2: Holding lock 2...");

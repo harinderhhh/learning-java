@@ -1,7 +1,5 @@
 package com.harinder.java.learning;
 
-import java.util.Arrays;
-
 public class MyStack {
 	private int top;
 	private int capacity;

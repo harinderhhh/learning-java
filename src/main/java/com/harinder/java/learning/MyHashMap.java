@@ -20,8 +20,6 @@ public class MyHashMap<K, V> {
 		buckets = new Entry[capacity];
 	}
 
-	private int hash(K key) {
-		return Math.abs(key.hashCode()) % capacity;
-	}
+	
 
 }
